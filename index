@@ -1,0 +1,45 @@
+Oczywiście! Oto prosty przykład walentynkowej kartki w HTML:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Walentynka</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fce4ec;
+            text-align: center;
+        }
+        .card {
+            background-color: #fff;
+            width: 300px;
+            margin: 50px auto;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #e91e63;
+        }
+        p {
+            color: #333;
+        }
+        .heart {
+            color: #e91e63;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>Wesołego Walentynka!</h1>
+        <p>Najlepsze życzenia z okazji dnia zakochanych!</p>
+        <p>Niech miłość będzie zawsze w Twoim sercu <span class="heart">❤</span></p>
+    </div>
+</body>
+</html>
+```
+
+Ten kod HTML tworzy prostą kartkę walentynkową. Możesz go skopiować i wkleić do pliku HTML, a następnie otworzyć ten plik w przeglądarce internetowej, aby zobaczyć efekt.
